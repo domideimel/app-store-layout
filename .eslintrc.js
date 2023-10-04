@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
+  parser: 'vue-eslint-parser',
   extends: [
     'standard-with-typescript',
     'eslint:recommended',
@@ -27,12 +28,12 @@ module.exports = {
     sourceType: 'module',
     project: ['./tsconfig.json'],
     extraFileExtensions: ['.vue'],
+    parser: '@typescript-eslint/parser',
   },
   plugins: ['@typescript-eslint', 'vue'],
   rules: {
     indent: ['error', 2],
     'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single'],
-    semi: ['error', 'never'],
   },
 };

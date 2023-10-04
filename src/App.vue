@@ -1,5 +1,5 @@
-<script setup lang="ts"></script>
-
 <template>
-  <div>Hallo Welt</div>
+  <div class="container">
+    <h1>Hallo Welt</h1>
+  </div>
 </template>
