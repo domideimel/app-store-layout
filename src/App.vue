@@ -1,8 +1,5 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>
-    Hallo Welt
-  </div>
+  <div>Hallo Welt</div>
 </template>

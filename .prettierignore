@@ -1,0 +1,12 @@
+bin/
+doc/
+node_modules
+package-lock.json
+yarn.lock
+.git
+.gitignore
+.husky
+.prettierignore
+**/*.svg
+**/*.php
+**/*.twig
