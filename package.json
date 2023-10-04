@@ -1,0 +1,21 @@
+{
+  "name": "app-store-layout",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "dev:bun": "bunx --bun vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "build:bun": "bunx --bun vue-tsc --noEmit && bunx --bun vite build",
+    "preview": "vite preview",
+    "preview:bun": "bunx --bun vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "vue-tsc": "latest"
+  }
+}
